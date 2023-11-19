@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import gpaImg from '../assets/grade-to-gpa.png'
-// import gpaImg from '../assets/gpa.jpg'
 
 function CardGPA() {
     const [gpaVIew, setGpaview] = useState(false)

@@ -22,8 +22,6 @@ function Subjects({ subject }) {
         let totalWeightedGPA = 0;
         let finalGPA = 0
         let Tcredit = 0
-        // console.log(subject.length);
-        // console.log(grades);
         if (Object.keys(grades).length === subject.length) {
             subject.forEach(item => {
                 const subCredit = item.credits;

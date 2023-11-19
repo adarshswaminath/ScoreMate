@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
-// import percentImg from '../assets/percentage.jpg'
 import percentImg from '../assets/percentage.png'
 
 
